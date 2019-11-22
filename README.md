@@ -2,21 +2,7 @@
 The third programming project in my class
 
 package Chapter5PPMatthewRoberts;
-/* Matthew Roberts
- * 10/08/2019
- * Project 5
- * Extra Credit:
- * Project Description:  
- * 1) Display welcome message and then ask the user to enter his/her name.
- * 2) Display a personal welcome message by addressing the user by his/her name.
- * 3) Declare a constant and assign a number to it as the conference room capacity.
- * 4) Ask the user how many people are attending and display a meaningful message for each of the three different scenarios.
- * 5) People attending are fewer than the room capacity.
- * 6) People attending are more than the room capacity. 
- * 7) People attending are equal to the room capacity.
- * 8) The system will keep running until the user quits(loop).
 
- */
 import java.util.*;
 
 public class Chapter5PPMatthewRoberts {
