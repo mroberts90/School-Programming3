@@ -18,8 +18,7 @@ public class Chapter5PPMatthewRoberts {
 		Scanner scan = new Scanner(System.in);
 		
 		while (true) {
-			if (request.equalsIgnoreCase(quit))
-				break;	
+				
 			System.out.println("Welcome to the Meeting System. May I know your name? ");//greet user and ask for their name.
 			name = scan.nextLine();
 			System.out.println("Hello " + name + ", how many people are attending the meeting? "); //ask how many are attending the meeting.
@@ -33,8 +32,23 @@ public class Chapter5PPMatthewRoberts {
 			scan.nextLine();
 			scan.nextLine();
 			
-			System.out.println("Would you like to make another request?(y/n) ");/*if y is chosen keep in the loop. if n is chosen break the loop.*/
-
+			System.out.println("Would you like to make another request?(y/n) ");//if y is chosen keep in the loop. if n is chosen break the loop.
+			request = scan.nextLine(); 
+			if (request.equalsIgnoreCase(quit))
+				break;
+			
+			
+			
+			
 	}
 }
 }
+		
+		
+		
+		
+		
+			
+			
+					
+				
