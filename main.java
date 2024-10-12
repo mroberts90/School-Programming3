@@ -1,6 +1,3 @@
-# School-Programming3
-The third programming project in my class
-
 package Chapter5PPMatthewRoberts;
 
 import java.util.*;
